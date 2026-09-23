@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio — Peterson Linen</title>
+<meta name="description" content="Real Peterson Linen events grouped by occasion: weddings, showers, mitzvahs, anniversaries, galas, conferences, hotels and venues.">
+<link rel="icon" href="assets/logo.png">
+<meta property="og:title" content="Portfolio — Peterson Linen">
+<meta property="og:description" content="Real Peterson Linen events grouped by occasion: weddings, showers, mitzvahs, anniversaries, galas, conferences, hotels and venues.">
+<meta property="og:type" content="website">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:'Caramella';src:url('assets/fonts/Caramella_Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+body{margin:0;background:#F5F3EF;color:#201F1D;font-family:'Libre Franklin',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}
+a{color:#015E5E}
+a:hover{color:#8A6E1A}
+:focus-visible{outline:2px solid #C9A227;outline-offset:2px}
+::selection{background:#C9A227;color:#fff}
+.cm{font-family:'Caramella','Cormorant Garamond',Georgia,serif;font-weight:400}
+.sc{font-family:'English111AdagioBT','English 111 Adagio BT','Cormorant Garamond',cursive,serif}
+.nv{text-decoration:none;color:#201F1D;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;padding:6px 0;border-bottom:1px solid transparent}
+.nv:hover{color:#015E5E;border-bottom-color:#C9A227}
+.hasmenu{position:relative}
+.submenu{position:absolute;top:100%;left:-18px;min-width:230px;background:#fff;border:1px solid #D8D6D1;box-shadow:0 8px 24px rgba(32,31,29,.09);padding:8px 0;margin-top:12px;opacity:0;visibility:hidden;transform:translateY(-4px);transition:opacity .18s ease,transform .18s ease,visibility .18s;z-index:60}
+.hasmenu:hover .submenu,.hasmenu:focus-within .submenu{opacity:1;visibility:visible;transform:translateY(0)}
+.submenu a{display:block;padding:11px 20px;text-decoration:none;color:#201F1D;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:500}
+.submenu a:hover{background:#F5F3EF;color:#015E5E}
+.caret{display:inline-block;margin-left:7px;width:5px;height:5px;border-right:1px solid currentColor;border-bottom:1px solid currentColor;transform:translateY(-2px) rotate(45deg)}
+.btn{white-space:nowrap;display:inline-block;text-decoration:none;font-size:13px;letter-spacing:.1em;text-transform:uppercase;font-weight:500;padding:14px 26px;border:1px solid #015E5E;color:#015E5E;background:transparent;transition:background .18s ease,color .18s ease}
+.btn:hover{background:#015E5E;color:#F5F3EF}
+.btnw{white-space:nowrap;display:inline-block;text-decoration:none;font-size:13px;letter-spacing:.1em;text-transform:uppercase;font-weight:500;padding:14px 26px;border:1px solid #C9A227;color:#F5F3EF;background:transparent;transition:background .18s ease,color .18s ease}
+.btnw:hover{background:#C9A227;color:#201F1D}
+.lk{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;text-decoration:none;color:#015E5E;border-bottom:1px solid #C9A227;padding-bottom:4px}
+.lk:hover{color:#8A6E1A;border-bottom-color:#8A6E1A}
+.lkw{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;text-decoration:none;color:#F5F3EF;border-bottom:1px solid #C9A227;padding-bottom:4px}
+.lkw:hover{color:#C9A227}
+.kick{font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;font-weight:500;color:#8A6E1A}
+.kickw{font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;font-weight:500;color:#C9A227}
+.tile{display:block;text-decoration:none;color:inherit;position:relative;overflow:hidden}
+.tile img{width:100%;height:clamp(200px,26vw,300px);object-fit:cover;display:block;transition:transform .5s ease,filter .5s ease;filter:saturate(.95)}
+.tile:hover img{transform:scale(1.04);filter:saturate(1.08)}
+.tilerule{display:block;height:1px;background:#D8D6D1;margin-top:12px;position:relative}
+.tilerule:after{content:"";position:absolute;left:0;top:0;height:1px;width:0;background:#C9A227;transition:width .4s ease}
+.tile:hover .tilerule:after{width:100%}
+.swatch img{height:clamp(120px,14vw,170px)}
+.marker{position:absolute;width:30px;height:30px;border-radius:50%;border:1px solid #C9A227;background:rgba(1,63,63,.78);color:#F5F3EF;font-size:13px;font-weight:500;display:flex;align-items:center;justify-content:center;font-variant-numeric:tabular-nums;backdrop-filter:blur(2px)}
+.prow{display:grid;grid-template-columns:30px 1fr auto;gap:14px;align-items:baseline;padding:11px 0;border-top:1px solid #D8D6D1;transition:background .18s ease}
+.prow:hover{background:#EFECE5}
+.pnum{font-size:13px;font-weight:500;color:#8A6E1A;font-variant-numeric:tabular-nums;text-align:center}
+.nvl{display:block;line-height:1.7;text-decoration:none;color:#F5F3EF;font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:400}
+.nvl:hover{color:#C9A227}
+.tbd{color:#8A6E1A;border-bottom:1px dotted #C9A227}
+.callbar{display:none}
+@media(max-width:640px){body{padding-bottom:64px}.callbar{display:flex}}
+</style>
+</helmet>
+
+<div style="background:#013F3F;color:#E8E4DA;font-size:11px;letter-spacing:.11em;text-transform:uppercase;padding:11px clamp(18px,4vw,56px);display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap">
+  <span>Rental &amp; sales · Braintree, Massachusetts · Women-owned, WBENC certified</span>
+  <span>We deliver on Sundays · Two weeks&rsquo; notice is ideal</span>
+</div>
+
+<header style="display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;padding:20px clamp(18px,4vw,56px);border-bottom:1px solid #D8D6D1;background:#F5F3EF;position:relative;z-index:50">
+  <a href="index.html" style="flex:none"><img src="assets/logo.png" alt="Peterson Linen Rental &amp; Sales" style="height:54px;width:auto;display:block"></a>
+  <nav style="display:flex;align-items:center;gap:clamp(12px,1.8vw,26px);flex-wrap:wrap">
+    <a href="about.html" class="nv">About</a>
+    <span class="hasmenu">
+      <a href="services-personal-events.html" class="nv">Services<i class="caret"></i></a>
+      <span class="submenu">
+        <a href="services-personal-events.html">Personal Events</a>
+        <a href="services-corporate-events.html">Corporate Events</a>
+      </span>
+    </span>
+    <a href="our-linens.html" class="nv">Our Linens</a>
+    <a href="portfolio.html" class="nv" style="color:#015E5E;border-bottom-color:#C9A227">Portfolio</a>
+    <a href="trade.html" class="nv">Trade</a>
+    <a href="contact.html" class="nv">Contact</a>
+    <a href="tel:17818432883" class="btn" style="font-size:15px;letter-spacing:.03em;text-transform:none;padding:12px 22px;font-variant-numeric:tabular-nums">781.843.2883</a>
+  </nav>
+</header>
+
+<section style="position:relative;background:#013F3F">
+  <img src="assets/dbx/matchmade-132.jpg" alt="Barn reception with dressed rounds and pastel florals under string lights" style="width:100%;height:clamp(300px,42vh,420px);object-fit:cover;object-position:center 55%;opacity:.82;display:block">
+  <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(1,44,44,.95) 0%,rgba(1,44,44,.88) 46%,rgba(1,44,44,.42) 100%)"></div>
+  <div style="position:absolute;inset:0;display:flex;align-items:center;padding:0 clamp(18px,4vw,56px)">
+    <div style="max-width:660px">
+      <div class="kickw" style="margin-bottom:18px">Portfolio</div>
+      <h1 class="cm" style="font-size:clamp(34px,5vw,58px);line-height:1.06;letter-spacing:-.01em;margin:0 0 16px;color:#F5F3EF;text-wrap:balance">Rooms we have dressed.</h1>
+      <p style="font-size:clamp(15px,1.4vw,17px);line-height:1.75;color:#E8E4DA;margin:0;max-width:48ch;text-wrap:pretty">Real Peterson events, grouped by occasion. Every entry names the venue and the pieces on the table.</p>
+    </div>
+  </div>
+</section>
+
+<section style="padding:clamp(40px,5vw,64px) clamp(18px,4vw,56px) 0">
+  <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center">
+    <span style="font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:#8A6E1A;font-weight:500;margin-right:6px">Jump to</span>
+    <a href="#weddings" class="nv" style="border:1px solid #D8D6D1;padding:9px 16px">Weddings</a>
+    <a href="#showers" class="nv" style="border:1px solid #D8D6D1;padding:9px 16px">Showers</a>
+    <a href="#mitzvahs" class="nv" style="border:1px solid #D8D6D1;padding:9px 16px">Mitzvahs</a>
+    <a href="#anniversaries" class="nv" style="border:1px solid #D8D6D1;padding:9px 16px">Anniversaries</a>
+    <a href="#galas" class="nv" style="border:1px solid #D8D6D1;padding:9px 16px">Galas</a>
+    <a href="#conferences" class="nv" style="border:1px solid #D8D6D1;padding:9px 16px">Conferences</a>
+    <a href="#venues" class="nv" style="border:1px solid #D8D6D1;padding:9px 16px">Hotels &amp; venues</a>
+  </div>
+</section>
+
+<section style="padding:clamp(40px,5vw,64px) clamp(18px,4vw,56px) 0">
+  <div class="kick" style="margin-bottom:14px">Personal events</div>
+  <h2 class="cm" style="font-size:clamp(28px,3.4vw,42px);line-height:1.1;margin:0;color:#015E5E;text-wrap:balance">Weddings, showers, mitzvahs, milestones.</h2>
+  <p style="font-size:15px;line-height:1.78;color:#55544F;margin:12px 0 0;max-width:60ch;text-wrap:pretty">Captions are placeholders until Peterson confirms venue names and the pieces used on each table.</p>
+
+  <div id="weddings" style="padding-top:clamp(30px,4vw,48px);border-top:1px solid #D8D6D1;margin-top:clamp(36px,5vw,60px)">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:26px">
+      <div style="flex:1;min-width:min(100%,260px)">
+        <h3 class="cm" style="font-size:clamp(25px,2.8vw,34px);line-height:1.1;margin:0 0 8px;color:#015E5E">Weddings</h3>
+        <p style="font-size:14.5px;line-height:1.75;color:#55544F;margin:0;max-width:56ch;text-wrap:pretty">Ballrooms, tents, barns, head tables and sweetheart tables across New England.</p>
+      </div>
+      <span class="tbd" style="font-size:12.5px">Awaiting final photo selection</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:clamp(16px,2.2vw,26px)"><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/up2/abt-1009.jpg" alt="Sweetheart table in emerald velvet with a gold Mr and Mrs sign and low florals" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Emerald velvet sweetheart table</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/up2/rosegold-table1.jpg" alt="Three-tier white wedding cake with florals on a rose gold sequin cloth" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Rose gold sequin cake table</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/dbx/kusek-03583.jpg" alt="Barn reception with dressed rounds and a gold script sign on the wall" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Barn reception, ivory and sage</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/dbx/kusek-03619.jpg" alt="Long farm tables with sage runners, tall florals and amber glassware" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Farm tables, sage runners</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/dbx/inside-barn.jpg" alt="Barn reception under a chandelier with dressed round tables" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Barn under the chandelier</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/dbx/morgan-038.jpg" alt="Round table in ivory with pastel florals and tall stems" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Ivory round, pastel florals</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure></div>
+  </div>
+
+  <div id="showers" style="padding-top:clamp(30px,4vw,48px);border-top:1px solid #D8D6D1;margin-top:clamp(36px,5vw,60px)">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:26px">
+      <div style="flex:1;min-width:min(100%,260px)">
+        <h3 class="cm" style="font-size:clamp(25px,2.8vw,34px);line-height:1.1;margin:0 0 8px;color:#015E5E">Showers</h3>
+        <p style="font-size:14.5px;line-height:1.75;color:#55544F;margin:0;max-width:56ch;text-wrap:pretty">Bridal and baby showers at home, at the club, or at a restaurant.</p>
+      </div>
+      <span class="tbd" style="font-size:12.5px">Awaiting final photo selection</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:clamp(16px,2.2vw,26px)"><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/dbx/hemenway-10935.jpg" alt="Sage green cloth with blush napkins, white china and citrus-toned florals" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Sage and blush, daytime table</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/dbx/hemenway-10531.jpg" alt="Place setting on a sage cloth with peach napkins and white china" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Peach napkins, sage cloth</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/coral.jpeg" alt="Coral cloth with white fan-folded napkins and a low glass centrepiece" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Coral with white fans</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/rose-runner.jpeg" alt="Rose coloured runner across a white cloth with a low rose centrepiece" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Rose runner on white</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure></div>
+  </div>
+
+  <div id="mitzvahs" style="padding-top:clamp(30px,4vw,48px);border-top:1px solid #D8D6D1;margin-top:clamp(36px,5vw,60px)">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:26px">
+      <div style="flex:1;min-width:min(100%,260px)">
+        <h3 class="cm" style="font-size:clamp(25px,2.8vw,34px);line-height:1.1;margin:0 0 8px;color:#015E5E">Mitzvahs</h3>
+        <p style="font-size:14.5px;line-height:1.75;color:#55544F;margin:0;max-width:56ch;text-wrap:pretty">Colour-led rooms built for dancing — sequin, bold palettes and uplighting.</p>
+      </div>
+      <span class="tbd" style="font-size:12.5px">Awaiting final photo selection</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:clamp(16px,2.2vw,26px)"><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/up2/pink-uplit-ballroom.jpg" alt="Ballroom under pink uplighting with ivory rounds and pink chair sashes" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Pink uplit ballroom</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/magenta.png" alt="Magenta round with plum fan-folded napkins and a red centrepiece" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Magenta and plum</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/up2/purple-organza.jpg" alt="Champagne sequin round with white napkins under purple uplighting" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Champagne sequin, purple light</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/up2/white-cake-blush.jpg" alt="Ballroom of blush sequin rounds under purple uplighting" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Blush sequin ballroom</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure></div>
+  </div>
+
+  <div id="anniversaries" style="padding-top:clamp(30px,4vw,48px);border-top:1px solid #D8D6D1;margin-top:clamp(36px,5vw,60px)">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:26px">
+      <div style="flex:1;min-width:min(100%,260px)">
+        <h3 class="cm" style="font-size:clamp(25px,2.8vw,34px);line-height:1.1;margin:0 0 8px;color:#015E5E">Anniversaries</h3>
+        <p style="font-size:14.5px;line-height:1.75;color:#55544F;margin:0;max-width:56ch;text-wrap:pretty">Milestone dinners and family gatherings, eight around one table or two hundred.</p>
+      </div>
+      <span class="tbd" style="font-size:12.5px">Awaiting final photo selection</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:clamp(16px,2.2vw,26px)"><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/up2/orange-crush-table2.jpg" alt="Candlelit round dressed in red sequin with folded white napkins" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Red sequin, candlelit</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/plum.png" alt="Deep plum round dressed under candlelight with white napkins" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Plum under candlelight</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/up2/sequin-ballroom-mixed.jpg" alt="Emerald green round with candles, white napkins and a table number card" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Emerald round, table ten</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/up2/silver-sequin-cake.jpg" alt="White overlay over an orchid base cloth under purple uplighting" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Orchid base, white overlay</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure></div>
+  </div>
+</section>
+
+<section style="padding:clamp(48px,7vw,84px) clamp(18px,4vw,56px) 0">
+  <div style="border-top:1px solid #D8D6D1;padding-top:clamp(32px,4vw,52px)">
+    <div class="kick" style="margin-bottom:14px">Corporate events</div>
+    <h2 class="cm" style="font-size:clamp(28px,3.4vw,42px);line-height:1.1;margin:0;color:#015E5E;text-wrap:balance">Galas, conferences and contracts.</h2>
+    <p style="font-size:15px;line-height:1.78;color:#55544F;margin:12px 0 0;max-width:60ch;text-wrap:pretty">Brand colours matched, load-ins met, counts held. Client names shown only where permission has been given.</p>
+
+    <div id="galas" style="padding-top:clamp(30px,4vw,48px);border-top:1px solid #D8D6D1;margin-top:clamp(36px,5vw,60px)">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:26px">
+      <div style="flex:1;min-width:min(100%,260px)">
+        <h3 class="cm" style="font-size:clamp(25px,2.8vw,34px);line-height:1.1;margin:0 0 8px;color:#015E5E">Galas &amp; fundraisers</h3>
+        <p style="font-size:14.5px;line-height:1.75;color:#55544F;margin:0;max-width:56ch;text-wrap:pretty">Large counts, brand colours, and a room that has to photograph well.</p>
+      </div>
+      <span class="tbd" style="font-size:12.5px">Awaiting final photo selection</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:clamp(16px,2.2vw,26px)"><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/up2/rosegold-sequin-room.jpg" alt="Ballroom of champagne sequin rounds under purple uplighting" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Champagne sequin, full room</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/gold-damask.png" alt="Gold damask cloth with gold chargers and folded white napkins" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Gold damask and chargers</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/lavender-tall.jpeg" alt="Lavender sashes and napkins with a tall white floral centrepiece" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Lavender, tall florals</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/up2/emerald-table10.jpg" alt="Cake table in navy with a silver sequin overlay and a white tiered cake" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Navy and silver sequin</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure></div>
+  </div>
+
+    <div id="conferences" style="padding-top:clamp(30px,4vw,48px);border-top:1px solid #D8D6D1;margin-top:clamp(36px,5vw,60px)">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:26px">
+      <div style="flex:1;min-width:min(100%,260px)">
+        <h3 class="cm" style="font-size:clamp(25px,2.8vw,34px);line-height:1.1;margin:0 0 8px;color:#015E5E">Conferences &amp; expos</h3>
+        <p style="font-size:14.5px;line-height:1.75;color:#55544F;margin:0;max-width:56ch;text-wrap:pretty">Registration and exhibit tables, breakout rooms, brand-matched at volume.</p>
+      </div>
+      <span class="tbd" style="font-size:12.5px">Awaiting final photo selection</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:clamp(16px,2.2vw,26px)"><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/up2/expo-orange-round.jpg" alt="Ballroom of blush rounds under purple uplighting" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Blush rounds at volume</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/damask-aqua.jpg" alt="Aqua damask overlay with a floral centrepiece and blue glassware" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Aqua damask overlay</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/aqua-runner.jpg" alt="Aqua cloth with a glass fishbowl centrepiece and white fan napkins" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Aqua, glass centrepiece</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/safari.jpeg" alt="Animal-print linen with a textured seed-pod centrepiece" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Themed print linen</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure></div>
+  </div>
+
+    <div id="venues" style="padding-top:clamp(30px,4vw,48px);border-top:1px solid #D8D6D1;margin-top:clamp(36px,5vw,60px)">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:26px">
+      <div style="flex:1;min-width:min(100%,260px)">
+        <h3 class="cm" style="font-size:clamp(25px,2.8vw,34px);line-height:1.1;margin:0 0 8px;color:#015E5E">Hotels &amp; venues</h3>
+        <p style="font-size:14.5px;line-height:1.75;color:#55544F;margin:0;max-width:56ch;text-wrap:pretty">Standing contracts, stock reserved against your calendar.</p>
+      </div>
+      <span class="tbd" style="font-size:12.5px">Awaiting final photo selection</span>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:clamp(16px,2.2vw,26px)"><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/ballroom.jpg" alt="Wide ballroom of ivory rounds with chair covers under lavender uplighting" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Hotel ballroom, ivory rounds</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/dbx/474-olas.jpg" alt="Long table dressed in white with lilac napkins and garden florals" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Lilac napkins, long table</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/dbx/jlo-268.jpg" alt="Barn venue with dressed rounds and dark chiavari chairs" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Barn venue, ivory rounds</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure><figure style="margin:0">
+      <div style="border:1px solid #D8D6D1;padding:8px;background:#F5F3EF;overflow:hidden">
+        <img src="assets/dbx/olas-0295.jpg" alt="Barn reception with teal napkins and white cloths under string lights" style="display:block;width:100%;height:clamp(200px,22vw,280px);object-fit:cover">
+      </div>
+      <figcaption style="margin-top:11px">
+        <span class="cm" style="display:block;font-size:19px;color:#015E5E;line-height:1.25">Teal napkins, barn room</span>
+        <span class="tbd" style="display:inline-block;font-size:12.5px;margin-top:4px">Venue and pieces to confirm</span>
+      </figcaption>
+    </figure></div>
+  </div>
+  </div>
+</section>
+
+<section style="background:#013F3F;color:#E8E4DA;padding:clamp(48px,7vw,80px) clamp(18px,4vw,56px);margin-top:clamp(48px,7vw,84px)">
+  <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:clamp(24px,4vw,48px);flex-wrap:wrap">
+    <div style="flex:1;min-width:min(100%,280px)">
+      <div class="kickw" style="margin-bottom:18px">Expert help</div>
+      <h2 class="cm" style="font-size:clamp(30px,4vw,46px);line-height:1.1;margin:0 0 14px;color:#F5F3EF;text-wrap:balance">See something you want?</h2>
+      <p style="font-size:15.5px;line-height:1.75;margin:0;max-width:48ch;color:#E8E4DA;text-wrap:pretty">Name the event and we will tell you every piece that was on the table, and whether it works at your venue.</p>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px;align-items:flex-start">
+      <a href="tel:17818432883" class="btnw" style="font-size:20px;padding:16px 32px;letter-spacing:.02em;text-transform:none;font-variant-numeric:tabular-nums">781.843.2883</a>
+      <a href="mailto:info@petersonlinen.com" class="lkw">info@petersonlinen.com</a>
+    </div>
+  </div>
+</section>
+
+<footer style="background:#0C0C0B;color:#A8A59D;padding:clamp(32px,5vw,48px) clamp(18px,4vw,56px)">
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:clamp(24px,4vw,48px);flex-wrap:wrap;padding-bottom:30px;border-bottom:1px solid rgba(245,243,239,.13)">
+    <div style="font-size:13.5px;line-height:1.9">
+      Peterson Linen Rental &amp; Sales, Inc.<br>215 Shaw Street, Braintree, MA 02184<br>We deliver on Sundays. Two weeks&rsquo; notice is ideal.
+    </div>
+    <div style="display:flex;gap:clamp(24px,4vw,44px);flex-wrap:wrap">
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <a href="about.html" class="nvl">About</a>
+        <a href="services-personal-events.html" class="nvl">Personal Events</a>
+        <a href="services-corporate-events.html" class="nvl">Corporate Events</a>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <a href="our-linens.html" class="nvl">Our Linens</a>
+        <a href="our-linens.html#sizing" class="nvl">Sizing guide</a>
+        <a href="faq.html" class="nvl">FAQ</a>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <a href="portfolio.html" class="nvl">Portfolio</a>
+        <a href="trade.html" class="nvl">Trade</a>
+        <a href="contact.html" class="nvl">Contact</a>
+      </div>
+    </div>
+  </div>
+  <div style="padding-top:20px;font-size:12px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap">
+    <span>© 2026 Peterson Linen Rental &amp; Sales, Inc.</span>
+    <span style="font-variant-numeric:tabular-nums">Venmo @PetersonLinen215</span>
+  </div>
+</footer>
+
+<a href="tel:17818432883" class="callbar" style="position:fixed;left:0;right:0;bottom:0;z-index:90;background:#015E5E;color:#F5F3EF;text-decoration:none;align-items:center;justify-content:center;gap:10px;padding:18px 16px;font-size:16px;font-weight:500;letter-spacing:.02em;font-variant-numeric:tabular-nums;border-top:1px solid #C9A227">Call Peterson Linen · 781.843.2883</a>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script></script>
+</body>
+</html>

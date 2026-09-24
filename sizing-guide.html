@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tablecloth Sizing Guide | Peterson Linen</title>
+<meta name="description" content="What size tablecloth fits your table? Drop lengths for 36, 48, 60 and 72-inch round tables, square cloth diagonals and skirting footage from Peterson Linen, Braintree MA.">
+<link rel="canonical" href="https://petersonlinen.com/sizing-guide">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --teal: #013F3F;
+    --teal-mid: #004E4E;
+    --cream: #F5F3EF;
+    --ink: #2B2B2B;
+    --muted: #5E5E5A;
+    --gold: #A08A4F;
+    --line: #DAD6CC;
+    --footer: #0C0C0B;
+    --heading: "Caramella", "Cormorant Garamond", Georgia, serif;
+    --body: "Open Sans", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--cream);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 17px;
+    line-height: 1.65;
+  }
+  a { color: var(--teal); }
+  a:hover { color: var(--teal-mid); }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+
+  /* Utility bar */
+  .utility {
+    background: var(--teal);
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+  .utility .wrap {
+    display: flex; justify-content: space-between; gap: 16px;
+    padding-top: 10px; padding-bottom: 10px; flex-wrap: wrap;
+  }
+
+  /* Header */
+  header.site {
+    background: var(--cream);
+    border-bottom: 1px solid var(--line);
+  }
+  header.site .wrap {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 24px; padding-top: 22px; padding-bottom: 22px; flex-wrap: wrap;
+  }
+  .brand {
+    font-family: var(--heading);
+    font-size: 30px; color: var(--teal); text-decoration: none; line-height: 1;
+  }
+  .brand img { display: block; height: 64px; width: auto; }
+  .brand small {
+    display: block; font-size: 13px; letter-spacing: .02em; margin-top: 4px;
+  }
+  nav.main { display: flex; gap: 26px; flex-wrap: wrap; align-items: center; }
+  nav.main a {
+    font-size: 13px; letter-spacing: .08em; text-transform: uppercase;
+    text-decoration: none; color: var(--ink);
+  }
+  nav.main a[aria-current="page"] { color: var(--teal); border-bottom: 1px solid var(--teal); }
+  .phone-btn {
+    border: 1px solid var(--teal); color: var(--teal) !important;
+    padding: 10px 18px; font-size: 15px !important; letter-spacing: .04em !important;
+  }
+
+  /* Hero */
+  .hero { background: var(--teal); color: #fff; padding: 88px 0 80px; }
+  .eyebrow {
+    font-size: 12px; letter-spacing: .12em; text-transform: uppercase;
+    color: #D9C58E; margin: 0 0 18px;
+  }
+  .hero h1 {
+    font-family: var(--heading); font-weight: 400;
+    font-size: clamp(38px, 5vw, 60px); line-height: 1.1; margin: 0 0 22px; max-width: 16ch;
+  }
+  .hero p { max-width: 60ch; margin: 0 0 14px; color: #E7EFEE; }
+
+  /* Jump links */
+  .jump { padding: 36px 0 0; }
+  .jump ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+  .jump a {
+    display: inline-block; padding: 8px 14px; border: 1px solid var(--line);
+    background: #fff; text-decoration: none; font-size: 14px;
+  }
+
+  /* Tables */
+  main { padding: 48px 0 24px; }
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px; }
+  .card {
+    background: #fff; border: 1px solid var(--line); padding: 30px 30px 24px;
+    scroll-margin-top: 20px;
+  }
+  .card h2, section h2 {
+    font-family: var(--heading); font-weight: 400; color: var(--teal);
+    font-size: 32px; line-height: 1.15; margin: 0 0 16px;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 16px; }
+  th, td { text-align: left; padding: 11px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th {
+    font-size: 12px; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--muted); font-weight: 600; padding-top: 0;
+  }
+  td:first-child { font-weight: 600; white-space: nowrap; padding-right: 18px; }
+  tr:last-child td { border-bottom: 0; }
+  .skirting {
+    margin: 16px 0 0; font-size: 14px; color: var(--muted);
+    border-top: 1px solid var(--line); padding-top: 12px;
+  }
+  .skirting strong { color: var(--ink); }
+  .wide { margin-top: 32px; }
+  .wide p.lead { margin: 0 0 18px; color: var(--muted); max-width: 62ch; }
+
+  /* Notes */
+  .notes { padding: 56px 0 24px; }
+  .notes-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 28px 48px; margin-top: 8px; }
+  .notes h3 {
+    font-family: var(--heading); font-weight: 400; color: var(--teal);
+    font-size: 23px; margin: 0 0 6px;
+  }
+  .notes p { margin: 0; }
+  .links { padding: 28px 0 64px; display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+  .btn {
+    display: inline-block; padding: 14px 26px; text-decoration: none; font-size: 15px;
+    border: 1px solid var(--teal);
+  }
+  .btn.solid { background: var(--teal); color: #fff; }
+  .btn.solid:hover { background: var(--teal-mid); color: #fff; }
+  .links .aside { color: var(--muted); font-size: 15px; }
+
+  /* CTA + footer */
+  .cta { background: var(--teal); color: #fff; padding: 72px 0; }
+  .cta .wrap { display: flex; justify-content: space-between; align-items: center; gap: 32px; flex-wrap: wrap; }
+  .cta h2 { font-family: var(--heading); font-weight: 400; font-size: 40px; margin: 0 0 10px; }
+  .cta p { margin: 0; color: #E7EFEE; max-width: 50ch; }
+  .cta .phone { color: #fff; border-color: #D9C58E; font-size: 22px; padding: 14px 30px; }
+  .cta .email { display: block; margin-top: 12px; color: #fff; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; }
+  footer.site { background: var(--footer); color: #BDBBB5; font-size: 14px; padding: 48px 0; }
+  footer.site .wrap { display: flex; justify-content: space-between; gap: 32px; flex-wrap: wrap; }
+  footer.site nav { display: grid; grid-template-columns: repeat(3, auto); gap: 10px 48px; }
+  footer.site a { color: #fff; text-decoration: none; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+  footer.site p { margin: 0 0 6px; }
+
+  @media (max-width: 820px) {
+    .grid, .notes-grid { grid-template-columns: 1fr; }
+    .utility .right { display: none; }
+    nav.main { gap: 16px; }
+    footer.site nav { grid-template-columns: repeat(2, auto); }
+  }
+  @media (max-width: 480px) {
+    body { font-size: 16px; }
+    .card { padding: 22px 18px 18px; }
+    td:first-child { white-space: normal; }
+    .hero { padding: 60px 0 56px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="utility">
+  <div class="wrap">
+    <span>Rental &amp; sales · Braintree, Massachusetts · Women-owned, WBENC certified</span>
+    <span class="right">We deliver on Sundays · Two weeks’ notice is ideal</span>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="/"><img src="peterson-logo.svg" alt="Peterson Linen Rental &amp; Sales Inc" width="180" height="64" onerror="this.replaceWith(Object.assign(document.createElement('span'),{innerHTML:'Peterson<small>Linen Rental &amp;amp; Sales Inc</small>'}))"></a>
+    <nav class="main" aria-label="Main">
+      <a href="/about">About</a>
+      <a href="/family-events">Services</a>
+      <a href="/linen-collection">Our linens</a>
+      <a href="/portfolio">Portfolio</a>
+      <a href="/venues-caterers">Trade</a>
+      <a href="/contact">Contact</a>
+      <a class="phone-btn" href="tel:+17818432883">781.843.2883</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Sizing guide</p>
+    <h1>What size cloth fits your table?</h1>
+    <p>Find out what tables your venue is using before you order. Once you know that, this tells you the rest.</p>
+    <p>Every cloth below is listed by where it lands — on the floor, or the number of inches above it. A cloth that stops too high is the most common reason a room looks slightly off.</p>
+  </div>
+</section>
+
+<div class="jump">
+  <div class="wrap">
+    <ul>
+      <li><a href="#round-72">72" round</a></li>
+      <li><a href="#round-60">60" round</a></li>
+      <li><a href="#round-48">48" round</a></li>
+      <li><a href="#round-36">36" round</a></li>
+      <li><a href="#squares">Square cloths</a></li>
+      <li><a href="#before-you-order">Before you order</a></li>
+    </ul>
+  </div>
+</div>
+
+<main>
+  <div class="wrap">
+    <div class="grid">
+
+      <section class="card" id="round-72">
+        <h2>72-inch round table</h2>
+        <table>
+          <thead><tr><th>Cloth</th><th>Where it falls</th></tr></thead>
+          <tbody>
+            <tr><td>132" round</td><td>To the floor</td></tr>
+            <tr><td>120" round</td><td>6" from the floor</td></tr>
+            <tr><td>108" round</td><td>12" from the floor</td></tr>
+            <tr><td>90" round</td><td>21" from the floor</td></tr>
+            <tr><td>84 x 84</td><td>Points fall 6" from the floor</td></tr>
+          </tbody>
+        </table>
+        <p class="skirting"><strong>Skirting:</strong> 19 feet</p>
+      </section>
+
+      <section class="card" id="round-60">
+        <h2>60-inch round table</h2>
+        <table>
+          <thead><tr><th>Cloth</th><th>Where it falls</th></tr></thead>
+          <tbody>
+            <tr><td>120" round</td><td>To the floor</td></tr>
+            <tr><td>108" round</td><td>6" from the floor</td></tr>
+            <tr><td>96" round</td><td>12" from the floor</td></tr>
+            <tr><td>90" round</td><td>15" from the floor</td></tr>
+            <tr><td>84 x 84</td><td>Points fall to the floor</td></tr>
+            <tr><td>72 x 72</td><td>Points fall 12" from the floor</td></tr>
+          </tbody>
+        </table>
+        <p class="skirting"><strong>Skirting:</strong> 16 feet</p>
+      </section>
+
+      <section class="card" id="round-48">
+        <h2>48-inch round table</h2>
+        <table>
+          <thead><tr><th>Cloth</th><th>Where it falls</th></tr></thead>
+          <tbody>
+            <tr><td>108" round</td><td>To the floor</td></tr>
+            <tr><td>96" round</td><td>6" from the floor</td></tr>
+            <tr><td>90" round</td><td>9" from the floor</td></tr>
+            <tr><td>72 x 72</td><td>Points fall 6" from the floor</td></tr>
+            <tr><td>54 x 54</td><td>Points fall 16" from the floor</td></tr>
+          </tbody>
+        </table>
+        <p class="skirting"><strong>Skirting:</strong> 13 feet</p>
+      </section>
+
+      <section class="card" id="round-36">
+        <h2>36-inch round table</h2>
+        <table>
+          <thead><tr><th>Cloth</th><th>Where it falls</th></tr></thead>
+          <tbody>
+            <tr><td>96" round</td><td>To the floor</td></tr>
+            <tr><td>90" round</td><td>3" from the floor</td></tr>
+            <tr><td>72 x 72</td><td>Points fall to the floor</td></tr>
+            <tr><td>54 x 54</td><td>Points fall 10" from the floor</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+    </div>
+
+    <section class="card wide" id="squares">
+      <h2>Square cloths, corner to corner</h2>
+      <p class="lead">A square cloth on a round table drops in points at the corners. This is how far those points reach.</p>
+      <table>
+        <thead><tr><th>Cloth</th><th>Diagonal</th></tr></thead>
+        <tbody>
+          <tr><td>90 x 90</td><td>124"</td></tr>
+          <tr><td>84 x 84</td><td>119"</td></tr>
+          <tr><td>72 x 72</td><td>96"</td></tr>
+          <tr><td>54 x 54</td><td>76"</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+</main>
+
+<section class="notes" id="before-you-order">
+  <div class="wrap">
+    <h2>Worth knowing before you order</h2>
+    <div class="notes-grid">
+      <div>
+        <h3>Looking for something specific?</h3>
+        <p>If you want a particular fabric or color, send a swatch and it gets searched for. For anything genuinely special, start about four months out — that’s how long it can take to produce a specific look.</p>
+      </div>
+      <div>
+        <h3>Ordering chair covers?</h3>
+        <p>Say what style of chair your venue uses. Banquet chairs, chiavari and folding chairs all need different covers, and “chairs” on an order form has caused more day-of problems than any other detail.</p>
+      </div>
+      <div>
+        <h3>Anything that needs installing</h3>
+        <p>Chair covers, valancing — should be scheduled ahead, so there’s enough time on site to finish it properly.</p>
+      </div>
+      <div>
+        <h3>Still not sure?</h3>
+        <p>Call <a href="tel:+17818432883">781.843.2883</a>. Guessing at cloth sizes is expensive and asking is free.</p>
+      </div>
+    </div>
+    <div class="links">
+      <a class="btn solid" href="/linen-collection">See the collection</a>
+      <a class="btn" href="/contact">Check your date</a>
+      <span class="aside">Booking for a venue or as a coordinator? <a href="/venues-caterers">Start here instead</a>.</span>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Expert help</p>
+      <h2>Not sure what your room needs?</h2>
+      <p>Tell us the venue and the table count. We have dressed most rooms south of Boston and can tell you what works in yours before you commit to a color.</p>
+    </div>
+    <div>
+      <a class="btn phone" href="tel:+17818432883">781.843.2883</a>
+      <a class="email" href="mailto:info@petersonlinen.com?subject=Linen%20question%20from%20the%20website">info@petersonlinen.com</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div>
+      <p>Peterson Linen Rental &amp; Sales, Inc.</p>
+      <p>215 Shaw Street, Braintree, MA 02184</p>
+      <p>We deliver on Sundays. Two weeks’ notice is ideal.</p>
+      <p style="margin-top:24px">© 2026 Peterson Linen Rental &amp; Sales, Inc.</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="/about">About</a>
+      <a href="/linen-collection">Our linens</a>
+      <a href="/portfolio">Portfolio</a>
+      <a href="/family-events">Personal events</a>
+      <a href="/sizing-guide" aria-current="page">Sizing guide</a>
+      <a href="/venues-caterers">Trade</a>
+      <a href="/corporate-events">Corporate events</a>
+      <a href="/faq">FAQ</a>
+      <a href="/contact">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
